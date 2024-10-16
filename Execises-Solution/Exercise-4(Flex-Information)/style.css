@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: JetBrains Mono;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.header-wrapper {
+  margin-top: 20px;
+}
+.fruit-wrapper {
+  margin-top: 50px;
+  display: flex;
+}
+.fruit-wrapper img {
+  height: 100px;
+}
+.fruit-wrapper div {
+  margin-left: 52px;
+  margin-right: 52px;
+}
+.fruit-wrapper p {
+  margin-top: 32px;
+}
+.barberry,
+.chili,
+.wrapper,
+.saffron {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}

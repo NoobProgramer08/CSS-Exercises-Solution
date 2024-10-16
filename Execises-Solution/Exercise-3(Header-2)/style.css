@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: JetBrains Mono;
+}
+body {
+  background-color: paleturquoise;
+}
+.wrapper {
+  display: flex;
+  margin-top: 10px;
+  align-content: center;
+  background-color: rgb(236, 221, 224);
+  border-radius: 12px;
+  padding: 5px;
+}
+.logo {
+  align-content: center;
+  color: purple;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Edu Australia VIC WA NT Hand Guides;
+}
+.links-left {
+  align-content: center;
+  margin-left: 10px;
+}
+.links-left ul {
+  display: flex;
+  flex-direction: row;
+}
+.links-left li {
+  list-style-type: none;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.links-left a {
+  text-decoration: none;
+  color: purple;
+}
+
+.right-wrapper {
+  display: flex;
+  margin-left: auto;
+  margin-right: 4px;
+  align-items: center;
+}
+.circle {
+  border-radius: 400px;
+  padding: 20px;
+  width: 4px;
+  background-color: purple;
+}
+.notification {
+  color: white;
+  background-color: purple;
+  padding: 10px;
+  height: 14px;
+  align-content: center;
+  border-radius: 10px;
+  margin-right: 12px;
+  font-size: 10px;
+}
