@@ -8,42 +8,39 @@ body {
 .wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .header-wrapper {
   margin-top: 20px;
 }
 .fruit-wrapper {
-  margin-top: 50px;
   display: flex;
+  margin-top: 32px;
   flex-wrap: wrap;
+  gap: 52px;
 }
 .fruit-wrapper img {
   height: 100px;
   max-width: 100%;
 }
 .fruit-wrapper div {
-  margin-left: 52px;
   box-sizing: border-box;
+  width: 200px;
 }
 .fruit-wrapper p {
   margin-top: 10px;
 }
-.barberry,
-.chili,
-.wrapper,
-.saffron {
+.fruit {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.txt {
+  display: flex;
   text-align: center;
 }
-
-.txt {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: centers;
-  width: 125px;
-  font-size: 12px;
-  margin-right: 52px;
+.txt p {
+  font-size: 13px;
 }
