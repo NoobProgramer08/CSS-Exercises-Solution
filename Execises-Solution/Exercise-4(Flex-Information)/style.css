@@ -8,7 +8,6 @@ body {
 .wrapper {
   display: flex;
   justify-content: center;
-  flex-direction: column;
 }
 .header-wrapper {
   margin-top: 20px;
@@ -16,16 +15,18 @@ body {
 .fruit-wrapper {
   margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
 }
 .fruit-wrapper img {
   height: 100px;
+  max-width: 100%;
 }
 .fruit-wrapper div {
   margin-left: 52px;
-  margin-right: 52px;
+  box-sizing: border-box;
 }
 .fruit-wrapper p {
-  margin-top: 32px;
+  margin-top: 10px;
 }
 .barberry,
 .chili,
@@ -35,4 +36,14 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
+}
+
+.txt {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: centers;
+  width: 125px;
+  font-size: 12px;
+  margin-right: 52px;
 }
